@@ -259,15 +259,15 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="contacto">
+                        <form class="contacto">
                             <h4 class="contacto__titulo">Hable con nosotros</h4>
                             <div class="contacto__nombre">
                                 <p class="contacto__input-titulo">Nombre</p>
-                                <input type="text" class="contacto__input">
+                                <input type="text" class="contacto__input" required data-tipo="nombre" pattern="[\s\S]{6,40}">
                             </div>
-                            <textarea name="" class="contacto__mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                            <button class="contacto__boton">Enviar mensaje</button>
-                        </div>
+                            <textarea name="" class="contacto__mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje" required pattern="[\s\S]{6,120}"></textarea>
+                            <button type="submit" class="contacto__boton">Enviar mensaje</button>
+                        </form>
                     </div>
                 </section>
                 <section class="footer__by">
