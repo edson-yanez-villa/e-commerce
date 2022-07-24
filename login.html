@@ -54,12 +54,18 @@
         </header>
         <main>
             <section class="login container">
-                <div class="login__contenido">
+                <form class="login__contenido">
                     <h3 class="login__titulo">Iniciar Sesión</h3>
-                    <input type="text" class="login__text-input" placeholder="Escriba su correo electrónico">
-                    <input type="text" class="login__text-input" placeholder="Escriba su contraseña">
-                    <button class="login__boton">Entrar</button>
-                </div>
+                    <div class="login__text-input">
+                        <input type="email" class="" placeholder="Escriba su correo electrónico" required data-tipo="email">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="login__text-input">
+                        <input type="password" placeholder="Escriba su contraseña" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-tipo="password">
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <button type="submit" class="login__boton">Entrar</button>
+                </form>
             </section>
             <footer class="footer container">
                 <section class="rodapie-informacion container">

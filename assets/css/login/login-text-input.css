@@ -5,21 +5,32 @@
     font-size: 16px;
     line-height: 20px;
     display: flex;
-    align-items: center;
-    color: #A2A2A2;
+    flex-direction: column;
+    /* align-items: center; */
+    color: #a2a2a2;
     margin-bottom: 16px;
-    border: none;
     border-radius: 3px;
     padding-left: 12px;
+    background: #ffffff;
+}
+
+.login__text-input input {
+    width: calc(100% - 16px);
+    margin-top: 6px;
+    outline: none;
+    border: none;
 }
 
 .login__text-input:last-of-type {
-    border-bottom: 1px solid #C8C8C8;
+    border-bottom: 1px solid #c8c8c8;
 }
 
 @media screen and (min-width: 1440px) {
     .login__text-input {
         height: 63.13px;
         margin-bottom: 24px;
+    }
+    .login__text-input input {
+        margin-top: 18px;
     }
 }
