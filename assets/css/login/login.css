@@ -1,0 +1,21 @@
+.login {
+    display: flex;
+    justify-content: center;
+    background: #E5E5E5;
+    padding-top: 97px;
+    padding-bottom: 76px;
+}
+
+@media screen and (min-width: 768px) {
+    .login {
+        padding-top: 45px;
+        padding-bottom: 61px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .login {
+        padding-top: 92px;
+        padding-bottom: 91px;
+    }
+}

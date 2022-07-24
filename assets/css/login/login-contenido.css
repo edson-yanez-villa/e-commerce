@@ -1,0 +1,12 @@
+.login__contenido {
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: center;
+}
+
+@media screen and (min-width: 1440px) {
+    .login__contenido {
+        width: 423px;
+    }
+}

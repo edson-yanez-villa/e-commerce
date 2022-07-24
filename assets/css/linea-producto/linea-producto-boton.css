@@ -1,0 +1,14 @@
+.linea-producto__boton {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #2A7AE4;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+    .linea-producto__boton {
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

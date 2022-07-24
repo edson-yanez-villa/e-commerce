@@ -1,0 +1,20 @@
+.banner__boton {
+    background: #2A7AE4;
+    border: none;
+    color: #FFFFFF;
+    width: 118px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+@media screen and (min-width: 922px) {
+    .banner__boton {
+        width: 129px;
+        height: 51px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}

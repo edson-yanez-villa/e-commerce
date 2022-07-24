@@ -1,0 +1,9 @@
+.box-search__boton {
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .box-search__boton {
+        background: #F5F5F5;
+    }
+}

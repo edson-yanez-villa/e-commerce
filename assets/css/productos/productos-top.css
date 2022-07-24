@@ -1,0 +1,21 @@
+.productos__top {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .productos__top {
+        font-size: 32px;
+        line-height: 38px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .productos__top {
+        margin-top: 64px;
+    }
+}

@@ -1,0 +1,35 @@
+.producto {
+    width: 156px;
+    height: 249px;
+    margin-bottom: 16px;
+}
+
+.producto:last-child {
+    display: none;
+    margin-right: 0;
+}
+
+.producto:nth-last-child(2) {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .producto {
+        width: 164px;
+        height: 252px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .producto {
+        width: 176px;
+        height: 252px;
+    }
+    .producto:last-child {
+        display: block;
+    }
+    
+    .producto:nth-last-child(2) {
+        display: block;
+    }
+}

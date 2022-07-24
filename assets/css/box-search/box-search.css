@@ -1,0 +1,17 @@
+.box-search {
+    border-radius: 30px;
+}
+
+@media screen and (min-width: 0) {
+    .box-search {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .box-search {
+        display: flex  ;
+        padding: 0.7rem;
+        background: #F5F5F5;
+    }
+}

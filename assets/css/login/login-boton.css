@@ -1,0 +1,19 @@
+.login__boton {
+    width: 109px;
+    height: 40px;
+    background: #2A7AE4;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+@media screen and (min-width: 1440px) {
+    .login__boton {
+        width: 100%;
+        height: 63.13px;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

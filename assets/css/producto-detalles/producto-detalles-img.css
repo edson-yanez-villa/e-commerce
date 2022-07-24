@@ -1,0 +1,21 @@
+.producto-detalles__img {
+    width: 360px;
+    height: 192px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .producto-detalles__img {
+        width: 254px;
+        height: 157px;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .producto-detalles__img {
+        width: 560px;
+        height: 403px;
+        margin: 0;
+    }
+}

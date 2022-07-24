@@ -1,0 +1,27 @@
+.informacion {
+    display: flex;
+}
+
+@media screen and (min-width: 0px) {
+    .informacion {
+        width: calc(360px - 32px);
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .informacion {
+        width: 254px;
+        align-items: flex-start;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .informacion {
+        flex-direction: row;
+        width: 580px;
+        justify-content: space-between;
+        margin-right: 112px;
+    }
+}

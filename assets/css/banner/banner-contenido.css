@@ -1,0 +1,16 @@
+.banner__contenido {
+    width: 328px;
+    height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__contenido {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .banner__contenido {
+        width: 1136px;
+    }
+}

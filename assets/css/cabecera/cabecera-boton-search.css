@@ -1,0 +1,16 @@
+.cabecera__boton-search {
+    background: #FFFFFF;
+    border: none;
+}
+
+@media screen and (min-width: 0) {
+    .cabecera__boton-search {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera__boton-search {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+.producto-detalles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+}
+
+@media screen and (min-width: 768px) {
+    .producto-detalles {
+        width: 704px;
+        flex-direction: row;
+        margin: 32px 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .producto-detalles {
+        width: 1136px;
+        margin: 64px 0 32px 0;
+    }
+}

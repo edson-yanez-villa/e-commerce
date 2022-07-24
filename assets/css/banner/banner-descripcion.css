@@ -1,0 +1,14 @@
+.banner__descripcion {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin: 0 0 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+    .banner__descripcion {
+        font-size: 22px;
+        line-height: 26px;
+    }
+}

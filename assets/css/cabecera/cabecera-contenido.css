@@ -1,0 +1,17 @@
+.cabecera__contenido {
+    display: flex;
+    justify-content: space-between;
+    width: 328px;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecera__contenido {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .cabecera__contenido {
+        width: 1136px;
+    }
+}

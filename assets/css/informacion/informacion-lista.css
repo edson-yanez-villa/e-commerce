@@ -1,0 +1,13 @@
+.informacion__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+    .informacion__lista {
+        align-items: flex-start;
+    }
+}

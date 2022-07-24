@@ -1,0 +1,10 @@
+.contacto__boton {
+    width: 133px;
+    height: 40px;
+    background: #2A7AE4;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}

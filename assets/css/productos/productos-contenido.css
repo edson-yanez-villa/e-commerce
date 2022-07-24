@@ -1,0 +1,17 @@
+.productos__contenido {
+    display: flex;
+    flex-direction: column;
+    width: 296px;
+}
+
+@media screen and (min-width: 768px) {
+    .productos__contenido {
+        width: 704px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .productos__contenido {
+        width: 1136px;
+    }
+}

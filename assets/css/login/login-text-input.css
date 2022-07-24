@@ -1,0 +1,25 @@
+.login__text-input {
+    width: calc(100% - 16px);
+    height: 41px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #A2A2A2;
+    margin-bottom: 16px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 12px;
+}
+
+.login__text-input:last-of-type {
+    border-bottom: 1px solid #C8C8C8;
+}
+
+@media screen and (min-width: 1440px) {
+    .login__text-input {
+        height: 63.13px;
+        margin-bottom: 24px;
+    }
+}

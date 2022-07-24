@@ -1,0 +1,18 @@
+.box-search__input {
+    outline: none;
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .box-search__input {
+        display: block;
+        background: #F5F5F5;
+        width: 272px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .box-search__input {
+        width: 393px;    
+    }
+}

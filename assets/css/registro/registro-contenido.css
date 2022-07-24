@@ -1,0 +1,23 @@
+.registro__contenido {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .registro__contenido {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        width: 704px;
+    }   
+}
+
+@media screen and (min-width: 1440px) {
+    .registro__contenido {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        width: 559px;
+    }   
+}
