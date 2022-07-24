@@ -1,0 +1,20 @@
+.input-container--invalid {
+    margin-bottom: 0.5rem;
+    border: 1px solid #df2525;
+}
+
+.input-container--invalid .input-label {
+    color: #df2525;
+}
+
+.input-message-error {
+    display: none;
+}
+
+.input-container--invalid .input-message-error {
+    color: #df2525;
+    display: block;
+    font-size: 9px;
+    /* padding-top: 0.5rem;
+    padding-left: 0.5rem; */
+}

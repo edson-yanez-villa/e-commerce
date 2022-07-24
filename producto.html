@@ -50,6 +50,7 @@
         <link href="./assets/css/contacto/contacto-mensaje.css" rel="stylesheet">
         <link href="./assets/css/contacto/contacto-boton.css" rel="stylesheet">
         <link href="./assets/css/footer/footer-by.css" rel="stylesheet">
+        <link href="./assets/css/validations.css" rel="stylesheet">
     </head>
     <body>
         <header class="cabecera">
@@ -151,15 +152,19 @@
                                 </ul>
                             </nav>
                         </div>
-                        <div class="contacto">
+                        <form class="contacto">
                             <h4 class="contacto__titulo">Hable con nosotros</h4>
                             <div class="contacto__nombre">
-                                <p class="contacto__input-titulo">Nombre</p>
-                                <input type="text" class="contacto__input">
+                                <p class="contacto__input-titulo input-label">Nombre</p>
+                                <input type="text" class="contacto__input input" required data-tipo="name" pattern="[\s\S]{6,40}">
+                                <span class="input-message-error">Este campo no es valido</span>
                             </div>
-                            <textarea name="" class="contacto__mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                            <button class="contacto__boton">Enviar mensaje</button>
-                        </div>
+                            <div class="contacto__mensaje">
+                                <textarea cols="30" rows="10" data-tipo="message" placeholder="Escribe tu mensaje" required pattern="[\s\S]{10,120}"></textarea>
+                                <span class="input-message-error">Este campo no es valido</span>
+                            </div>
+                            <button type="submit" class="contacto__boton">Enviar mensaje</button>
+                        </form>
                     </div>
                 </section>
                 <section class="footer__by">
@@ -168,5 +173,6 @@
                 </section>
             </footer>
         </main>
+        <script type="module" src="script.js"></script>
     </body>
 </html>

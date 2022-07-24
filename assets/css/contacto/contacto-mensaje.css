@@ -2,9 +2,20 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    color: #A2A2A2;
-    padding: 16px 12px;
+    color: #a2a2a2;
     border: none;
-    height: calc(82px - 32px);
+    height: 82px;
     margin-bottom: 16px;
+    width: calc(100% - 14px);
+    background: #ffffff;
+    padding-left: 12px;
+}
+.contacto__mensaje textarea {
+    height: calc(100% - 52px);
+    width: calc(100% - 24px);
+    padding: 0;
+    border: none;
+    outline: none;
+    padding: 16px 12px 16px 0;
+    resize: none;
 }
