@@ -35,12 +35,30 @@ const errorMessage = {
         valueMissing:
             "El campo mensaje debe contener almenos 10 a 120 caracteres.",
     },
+    category: {
+        valueMissing: "El campo Categoria no puede estar vacio",
+        patternMismatch:
+            "El campo categoria debe contener maximo 10 caracteres.",
+    },
+    productName: {
+        valueMissing: "El campo Nombre no puede estar vacio",
+        patternMismatch: "El campo Nombre debe contener maximo 20 caracteres.",
+    },
+    precio: {
+        valueMissing: "El campo Precio no puede estar vacio",
+        patternMismatch: "El campo Precio solo debe contener números",
+    },
+    descripcion: {
+        patternMismatch:
+            "El campo Descripcción debe contener maximo 150 caracteres",
+    },
 };
 
 function showErrorMessage(inputType, input) {
-    let message = "";
+    let message = "El campo no puede estar vacio";
+    console.log(inputType);
     typeErrors.forEach((error) => {
-        if (input.validity[error]) {
+        if (input.validity[error] && errorMessage[inputType]) {
             message = errorMessage[inputType][error];
         }
     });

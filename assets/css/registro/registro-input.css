@@ -1,8 +1,9 @@
 .registro__input {
-    width: 100%;
+    width: calc(100% - 12px);
     height: 56px;
-    background: #FFFFFF;
+    background: #ffffff;
+    padding-left: 12px;
     margin-bottom: 16px;
     border-radius: 3px;
-    border-bottom: 1px solid #C8C8C8;
+    border-bottom: 1px solid #c8c8c8;
 }

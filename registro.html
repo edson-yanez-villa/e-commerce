@@ -58,27 +58,34 @@
         </header>
         <main>
             <section class="registro container">
-                <div class="registro__contenido">
+                <form class="registro__contenido">
                     <h3 class="registro__titulo">Agregar nuevo producto</h3>
                     <div class="registro__input">
-                        <p class="input__title">URL de la imagen</p>
+                        <p class="input__title input-label">URL de la imagen</p>
                         <input type="text" class="input__text">
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__input">
-                        <p class="input__title">Categoría</p>
-                        <input type="text" class="input__text">
+                        <p class="input__title input-label">Categoría</p>
+                        <input type="text" class="input__text" required maxlength="10" pattern="[\s\S]{4,10}" data-tipo="category">
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__input">
-                        <p class="input__title">Nombre del producto</p>
-                        <input type="text" class="input__text">
+                        <p class="input__title input-label">Nombre del producto</p>
+                        <input type="text" class="input__text" required maxlength="20" pattern="[\s\S]{3,20}" data-tipo="productName">
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__input">
-                        <p class="input__title">Precio del produtco</p>
-                        <input type="text" class="input__text">
+                        <p class="input__title input-label">Precio del producto</p>
+                        <input type="text" class="input__text" pattern="\d{6}" required maxlength="6" data-tipo="precio">
+                        <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <textarea name="" id="" cols="30" rows="10" class="registro__descripcion" placeholder="Descripción del producto"></textarea>
-                    <button class="registro__boton">Agregar Producto</button>
-                </div>
+                    <div class="registro__descripcion">
+                        <textarea cols="30" rows="10" placeholder="Descripción del producto" data-tipo="descripcion" maxlength="150"></textarea>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <button type="submit" class="registro__boton">Agregar Producto</button>
+                </form>
             </section>
             <footer class="footer container">
                 <section class="rodapie-informacion container">
