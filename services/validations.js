@@ -1,13 +1,17 @@
 export function validate(input) {
     const inputType = input.dataset.tipo;
-    if (input.validity.valid) {
-        input.parentElement.classList.remove("input-container--invalid");
-        input.parentElement.querySelector(".input-message-error").innerHTML =
-            "";
-    } else {
-        input.parentElement.classList.add("input-container--invalid");
-        input.parentElement.querySelector(".input-message-error").innerHTML =
-            showErrorMessage(inputType, input);
+    if (inputType) {
+        if (input.validity.valid) {
+            input.parentElement.classList.remove("input-container--invalid");
+            input.parentElement.querySelector(
+                ".input-message-error"
+            ).innerHTML = "";
+        } else {
+            input.parentElement.classList.add("input-container--invalid");
+            input.parentElement.querySelector(
+                ".input-message-error"
+            ).innerHTML = showErrorMessage(inputType, input);
+        }
     }
 }
 
