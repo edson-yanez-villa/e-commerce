@@ -1,5 +1,5 @@
-import { clickButton } from "./services/clickButtons.js";
-import { validate } from "./services/validations.js";
+import { clickButton } from "./validations/clickButtons.js";
+import { validate } from "./validations/validations.js";
 
 const buttons = document.querySelectorAll("button");
 const inputs = document.querySelectorAll("input");

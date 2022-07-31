@@ -1,0 +1,31 @@
+{
+    "product": [
+        {
+            "name": "Producto 123",
+            "image": "./assets/img/prod-starwars1.png",
+            "price": "10$",
+            "id": 1,
+            "alt": "Product",
+            "section": "Star Wars",
+            "description": "Lorom ipsu"
+        },
+        {
+            "name": "Producto 234",
+            "image": "./assets/img/prod-starwars2.png",
+            "price": "10$",
+            "id": 2,
+            "alt": "Product",
+            "section": "Consolas",
+            "description": "Lorom ipsu"
+        },
+        {
+            "name": "Producto 345",
+            "image": "./assets/img/prod-starwars3.png",
+            "price": "10$",
+            "id": 3,
+            "alt": "Diversos",
+            "section": "Star Wars",
+            "description": "Lorom ipsu"
+        }
+    ]
+}
