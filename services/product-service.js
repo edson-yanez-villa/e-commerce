@@ -31,7 +31,7 @@ const detailProduct = (id) => {
 };
 
 const updateProduct = (image, section, name, price, description, id) => {
-    return fetch(`http://localhost:3000/product/perfil/${id}`, {
+    return fetch(`http://localhost:3000/product/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json",
