@@ -60,7 +60,6 @@ const errorMessage = {
 
 function showErrorMessage(inputType, input) {
     let message = "El campo no puede estar vacio";
-    console.log(inputType);
     typeErrors.forEach((error) => {
         if (input.validity[error] && errorMessage[inputType]) {
             message = errorMessage[inputType][error];

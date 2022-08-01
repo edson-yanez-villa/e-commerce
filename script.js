@@ -7,6 +7,7 @@ const textAreas = document.querySelectorAll("textarea");
 
 buttons.forEach((button) => {
     button.addEventListener("click", (button) => {
+        button.preventDefault();
         clickButton(button.target);
     });
 });

@@ -62,29 +62,29 @@
                     <h3 class="registro__titulo">Agregar nuevo producto</h3>
                     <div class="registro__input">
                         <p class="input__title input-label">URL de la imagen</p>
-                        <input type="text" class="input__text">
+                        <input type="text" class="input__text" data-url>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__input">
                         <p class="input__title input-label">Categoría</p>
-                        <input type="text" class="input__text" required maxlength="10" pattern="[\s\S]{4,10}" data-tipo="category">
+                        <input type="text" class="input__text" required maxlength="10" pattern="[\s\S]{4,10}" data-tipo="category" data-category>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__input">
                         <p class="input__title input-label">Nombre del producto</p>
-                        <input type="text" class="input__text" required maxlength="20" pattern="[\s\S]{3,20}" data-tipo="productName">
+                        <input type="text" class="input__text" required maxlength="20" pattern="[\s\S]{3,20}" data-tipo="productName" data-product-name>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__input">
                         <p class="input__title input-label">Precio del producto</p>
-                        <input type="text" class="input__text" pattern="\d{6}" required maxlength="6" data-tipo="precio">
+                        <input type="text" class="input__text" pattern="\d+" required maxlength="6" data-tipo="precio" data-price>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
                     <div class="registro__descripcion">
-                        <textarea cols="30" rows="10" placeholder="Descripción del producto" data-tipo="descripcion" maxlength="150"></textarea>
+                        <textarea cols="30" rows="10" placeholder="Descripción del producto" data-tipo="descripcion" maxlength="150" data-description></textarea>
                         <span class="input-message-error">Este campo no es valido</span>
                     </div>
-                    <button type="submit" class="registro__boton">Agregar Producto</button>
+                    <button type="submit" class="registro__boton" product-form>Agregar Producto</button>
                 </form>
             </section>
             <footer class="footer container">
@@ -124,6 +124,13 @@
                 </section>
             </footer>
         </main>
+        <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+        ></script>
         <script type="module" src="script.js"></script>
+        <script type="module" src="./controllers/registro-controller.js"></script>
     </body>
 </html>
