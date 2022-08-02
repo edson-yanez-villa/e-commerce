@@ -11,6 +11,20 @@ const buttons = {
     goLogin: (event) => goToLogin(event),
     goConsoles: (event) => goToConsoles(event),
     searchButton: (event) => search(event),
+    buttonEdit: (event) => editProduct(event),
+    buttonRemove: (event) => removeProduct(event),
+};
+
+const editProduct = (event) => {
+    const btn = document.querySelector("[product-edit]");
+    const id = btn.id;
+    console.log(id);
+};
+
+const removeProduct = (event) => {
+    const btn = document.querySelector("[product-remove]");
+    const id = btn.id;
+    console.log(id);
 };
 
 const goToLogin = (event) => {

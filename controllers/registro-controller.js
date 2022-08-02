@@ -3,7 +3,6 @@ import { productServices } from "../services/product-service.js";
 const formulario = document.querySelector("[product-form]");
 
 formulario.addEventListener("click", (event) => {
-    console.log("hola");
     event.preventDefault();
     const image = document.querySelector("[data-url]").value;
     const section = document.querySelector("[data-category]").value;

@@ -28,7 +28,7 @@
     .producto:last-child {
         display: block;
     }
-    
+
     .producto:nth-last-child(2) {
         display: block;
     }

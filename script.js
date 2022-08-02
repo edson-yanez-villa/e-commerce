@@ -5,6 +5,8 @@ const buttons = document.querySelectorAll("button");
 const inputs = document.querySelectorAll("input");
 const textAreas = document.querySelectorAll("textarea");
 
+const removeButton = document.querySelector(".button__product-edit");
+
 buttons.forEach((button) => {
     button.addEventListener("click", (button) => {
         button.preventDefault();
