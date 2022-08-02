@@ -4,7 +4,7 @@
       "name": "Producto 123",
       "image": "./assets/img/prod-starwars1.png",
       "price": "10$",
-      "id": 1,
+      "id": "1",
       "alt": "Product",
       "section": "Star Wars",
       "description": "Lorom ipsu"
@@ -13,7 +13,7 @@
       "name": "Producto 234",
       "image": "./assets/img/prod-starwars2.png",
       "price": "10$",
-      "id": 2,
+      "id": "2",
       "alt": "Product",
       "section": "Star Wars",
       "description": "Lorom ipsu"
@@ -22,7 +22,7 @@
       "name": "Producto 345",
       "image": "./assets/img/prod-starwars3.png",
       "price": "10$",
-      "id": 3,
+      "id": "3",
       "alt": "Diversos",
       "section": "Star Wars",
       "description": "Lorom ipsu"
@@ -31,7 +31,7 @@
       "name": "Producto 123",
       "image": "./assets/img/prod-starwars4.png",
       "price": "10$",
-      "id": 4,
+      "id": "4",
       "alt": "Product",
       "section": "Star Wars",
       "description": "Lorom ipsu"
@@ -40,7 +40,7 @@
       "name": "Producto 234",
       "image": "./assets/img/prod-starwars5.png",
       "price": "10$",
-      "id": 5,
+      "id": "5",
       "alt": "Product",
       "section": "Star Wars",
       "description": "Lorom ipsu"
@@ -49,7 +49,7 @@
       "name": "Producto 345",
       "image": "./assets/img/prod-starwars6.png",
       "price": "10$",
-      "id": 6,
+      "id": "6",
       "alt": "Diversos",
       "section": "Star Wars",
       "description": "Lorom ipsu"
@@ -58,7 +58,7 @@
       "name": "Producto 123",
       "image": "./assets/img/prod-consolas1.png",
       "price": "10$",
-      "id": 1,
+      "id": "7",
       "alt": "Product",
       "section": "consolas",
       "description": "Lorom ipsu"
@@ -67,7 +67,7 @@
       "name": "Producto 234",
       "image": "./assets/img/prod-consolas2.png",
       "price": "10$",
-      "id": 2,
+      "id": "8",
       "alt": "Product",
       "section": "consolas",
       "description": "Lorom ipsu"
@@ -76,7 +76,7 @@
       "name": "Producto 345",
       "image": "./assets/img/prod-consolas3.png",
       "price": "10$",
-      "id": 3,
+      "id": "9",
       "alt": "Diversos",
       "section": "consolas",
       "description": "Lorom ipsu"
@@ -85,7 +85,7 @@
       "name": "Producto 123",
       "image": "./assets/img/prod-consolas4.png",
       "price": "10$",
-      "id": 1,
+      "id": "10",
       "alt": "Product",
       "section": "consolas",
       "description": "Lorom ipsu"
@@ -94,7 +94,7 @@
       "name": "Producto 234",
       "image": "./assets/img/prod-consolas5.png",
       "price": "10$",
-      "id": 2,
+      "id": "11",
       "alt": "Product",
       "section": "consolas",
       "description": "Lorom ipsu"
@@ -103,7 +103,7 @@
       "name": "Producto 345",
       "image": "./assets/img/prod-consolas6.png",
       "price": "10$",
-      "id": 3,
+      "id": "12",
       "alt": "Diversos",
       "section": "consolas",
       "description": "Lorom ipsu"
@@ -112,7 +112,7 @@
       "name": "Producto 123",
       "image": "./assets/img/prod-diversos1.png",
       "price": "10$",
-      "id": 1,
+      "id": "13",
       "alt": "Product",
       "section": "diversos",
       "description": "Lorom ipsu"
@@ -121,7 +121,7 @@
       "name": "Producto 234",
       "image": "./assets/img/prod-diversos2.png",
       "price": "10$",
-      "id": 2,
+      "id": "14",
       "alt": "Product",
       "section": "diversos",
       "description": "Lorom ipsu"
@@ -130,7 +130,7 @@
       "name": "Producto 345",
       "image": "./assets/img/prod-diversos3.png",
       "price": "10$",
-      "id": 3,
+      "id": "15",
       "alt": "Diversos",
       "section": "diversos",
       "description": "Lorom ipsu"
@@ -139,7 +139,7 @@
       "name": "Producto 123",
       "image": "./assets/img/prod-diversos4.png",
       "price": "10$",
-      "id": 4,
+      "id": "16",
       "alt": "Product",
       "section": "diversos",
       "description": "Lorom ipsu"
@@ -148,7 +148,7 @@
       "name": "Producto 234",
       "image": "./assets/img/prod-diversos5.png",
       "price": "10$",
-      "id": 5,
+      "id": "17",
       "alt": "Product",
       "section": "diversos",
       "description": "Lorom ipsu"
@@ -157,7 +157,7 @@
       "name": "Producto 345",
       "image": "./assets/img/prod-diversos6.png",
       "price": "10$",
-      "id": 6,
+      "id": "18",
       "alt": "Diversos",
       "section": "diversos",
       "description": "Lorom ipsu"
@@ -165,10 +165,10 @@
     {
       "name": "Oso",
       "image": "https://forums.crackberry.com/attachments/blackberry-q10-f272/171886d1371181552t-bbm-display-picture-limitations-423341110329_qy737vid_l.jpg",
-      "price": "1",
+      "price": "1$",
       "id": "aac299d6-3c93-4ffc-b671-b957dfd8c6d8",
       "section": "Diversos",
-      "description": "asdasdasdasd"
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam"
     },
     {
       "name": "pika",
