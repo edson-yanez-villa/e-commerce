@@ -3,11 +3,10 @@
     {
       "name": "Producto 123",
       "image": "./assets/img/prod-starwars1.png",
-      "price": "10$",
-      "id": "1",
-      "alt": "Product",
+      "price": "60$",
       "section": "Star Wars",
-      "description": "Lorom ipsu"
+      "description": "dat de la informacion",
+      "id": "1"
     },
     {
       "name": "Producto 234",
@@ -75,11 +74,10 @@
     {
       "name": "Producto 345",
       "image": "./assets/img/prod-consolas3.png",
-      "price": "10$",
-      "id": "9",
-      "alt": "Diversos",
+      "price": "50",
       "section": "consolas",
-      "description": "Lorom ipsu"
+      "description": "Esto es una prueba de actualizar un documento",
+      "id": "9"
     },
     {
       "name": "Producto 123",
@@ -93,11 +91,10 @@
     {
       "name": "Producto 234",
       "image": "./assets/img/prod-consolas5.png",
-      "price": "10$",
-      "id": "11",
-      "alt": "Product",
+      "price": "200$",
       "section": "consolas",
-      "description": "Lorom ipsu"
+      "description": "Lorom ipsu",
+      "id": "11"
     },
     {
       "name": "Producto 345",
