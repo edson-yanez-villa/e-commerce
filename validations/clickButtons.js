@@ -21,6 +21,7 @@ const editProduct = (event) => {
   if (!id) {
     id = event.parentElement.id;
   }
+  window.location.href = `./actualizar.html?id=${id}`;
 };
 
 const removeProduct = (event) => {
